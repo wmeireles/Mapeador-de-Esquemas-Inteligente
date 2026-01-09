@@ -1,6 +1,28 @@
 # 🗄️ Intelligent Schema Mapper
 
+**🚀 NOVA VERSÃO MELHORADA DISPONÍVEL!** - Veja [README_ENHANCED.md](README_ENHANCED.md) para recursos avançados.
+
 AI-powered database schema mapping tool for legacy system migrations. Uses semantic analysis and LLM verification to map obscure legacy database schemas to modern, clean schemas.
+
+## 🎯 Escolha Sua Versão
+
+### 🚀 **Enhanced App (RECOMENDADO)**
+```bash
+streamlit run enhanced_app.py
+```
+**Recursos:** Interface avançada, validação de qualidade, gerenciamento de projetos, múltiplos formatos de export
+
+### 🎯 **Simple App (Sem API)**
+```bash
+streamlit run simple_app.py
+```
+**Recursos:** Mapeamento baseado em regras, interface básica, sem necessidade de API
+
+### 🤖 **AI App (Requer API)**
+```bash
+streamlit run app.py
+```
+**Recursos:** Mapeamento com IA, busca semântica, verificação LLM
 
 ## 🚀 Features
 
